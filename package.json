@@ -1,0 +1,27 @@
+{
+    "name": "BB",
+    "displayName": "BB - Marcado de Sintaxis",
+    "description": "Resaltado de sintaxis para el lenguaje BB",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.47.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "BB",
+            "aliases": ["BB", "bb"],
+            "extensions": [".bb"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "BB",
+            "scopeName": "source.bb",
+            "path": "./syntaxes/BB.tmLanguage.json"
+        }]
+    },
+	"publisher": "Andresrodart",
+	"repository": "https://github.com/Andresrodart/BBvscode.git"
+}
