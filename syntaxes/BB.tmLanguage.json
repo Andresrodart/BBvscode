@@ -3,6 +3,17 @@
 	"name": "BB",
 	"patterns": [
 		{
+			"name": "comment.line.BB",
+			"begin": "/\\*",
+			"end": "\\*/",
+			"patterns": [
+				{
+					"name": "constant.character.simple.BB",
+					"match": "\\\\."
+				}
+			]
+		},
+		{
 			"include": "#keywords"
 		},
 		{
