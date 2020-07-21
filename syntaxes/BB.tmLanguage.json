@@ -29,6 +29,9 @@
 			},{
 				"name": "constant.language.BB",
 				"match": "\\b(verdad|falso|nada)\\b"
+			},{
+				"name": "keyword.operator.logical.BB",
+				"match": "\\b(y|o|no)\\b"
 			}]
 		},
 		"strings": {
