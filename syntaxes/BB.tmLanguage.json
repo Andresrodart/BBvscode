@@ -30,7 +30,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.BB",
-				"match": "\\b(si|mientras|for|regresa|o si|sino)\\b"
+				"match": "\\b(si|mientras|para|hasta|incrementando|regresa|o si|sino)\\b"
 			},{
 				"name":"storage.type.class.BB",
 				"match": "\\b(objeto|privado|público|constructor)\\b"
